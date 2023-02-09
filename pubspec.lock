@@ -49,14 +49,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.1"
-  finger_painter:
-    dependency: "direct main"
-    description:
-      name: finger_painter
-      sha256: "989df154a46e32460d383427ecf0cc85179f7b3c5fdf07d7f8e67763524b7505"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -70,27 +62,11 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
-  flutter_painter:
-    dependency: "direct main"
-    description:
-      name: flutter_painter
-      sha256: "0e9737e5d9a33449a839275ae34f038d45115333f1e817ae9a0d81467c0779b7"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
     source: sdk
     version: "0.0.0"
-  image_painter:
-    dependency: "direct main"
-    description:
-      name: image_painter
-      sha256: d0f1637eb87b08a84e2fcf197dda8667365988314c20a9065115762ce43ae3d1
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.5.0"
   js:
     dependency: transitive
     description:
@@ -210,4 +186,3 @@ packages:
     version: "2.1.4"
 sdks:
   dart: ">=2.18.0 <3.0.0"
-  flutter: ">=1.17.0"

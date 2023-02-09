@@ -30,9 +30,6 @@ dependencies:
   flutter:
     sdk: flutter
   keyboard_actions: "^3.4.7"
-  image_painter: ^0.5.0
-  flutter_painter: ^1.0.1
-  finger_painter: ^1.1.0
 
 dev_dependencies:
   flutter_test:
