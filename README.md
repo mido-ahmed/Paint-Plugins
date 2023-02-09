@@ -1,7 +1,8 @@
 # Paint plugins
 
 A new Flutter project.
-
+part 1 of custom painter here in this github --> https://www.youtube.com/watch?v=SmjkmP73SjM&t=1s&ab_channel=JideGuru //
+part 2 of custome paint --> https://github.com/JideGuru/flutter_drawing_board
 ## Getting Started
 
 This project is a starting point for a Flutter application.
