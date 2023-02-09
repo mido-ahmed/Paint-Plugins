@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:session9/Paint_plugins/image-painter.dart';
+import 'package:session9/Paint_plugins/CustomPaintOne.dart';
 
 void main() {
   runApp(MyApp());
