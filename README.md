@@ -1,7 +1,8 @@
 # Paint plugins
 
 A new Flutter project.
-
+Source code -> https://github.com/itsherifAhmed/draw-app
+Youtube Video -> https://www.youtube.com/watch?v=bPLI_o86o1s&ab_channel=SecitDevelopers
 ## Getting Started
 
 This project is a starting point for a Flutter application.
