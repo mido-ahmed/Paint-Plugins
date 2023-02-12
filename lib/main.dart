@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           setState(() {
-            _strokes.clear();
+            var item = _strokes.clear();
           });
         },
         child: Icon(Icons.clear),
@@ -53,23 +53,55 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         backgroundColor: Colors.teal,
       ),
-      body: GestureDetector(
-        onPanDown: (details) => _startStroke(
-          details.localPosition.dx,
-          details.localPosition.dy,
-        ),
-        onPanUpdate: (details) => _moveStroke(
-          details.localPosition.dx,
-          details.localPosition.dy,
-        ),
-        child: Container(
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          child: CustomPaint(
-            painter: DrawingPainter(_strokes),
+      body: Stack(
+        children: [
+          GestureDetector(
+            onPanDown: (details) => _startStroke(
+              details.localPosition.dx,
+              details.localPosition.dy,
+            ),
+            onPanUpdate: (details) => _moveStroke(
+              details.localPosition.dx,
+              details.localPosition.dy,
+            ),
+            child: Container(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height,
+              child: CustomPaint(
+                painter: DrawingPainter(_strokes),
+              ),
+            ),
           ),
-        ),
+          Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(18.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      FloatingActionButton(
+                        backgroundColor: Colors.teal,
+                        child: Text("Undo"),
+                        onPressed: () {},
+                      ),
+                      SizedBox(
+                        width: 45,
+                      ),
+                      FloatingActionButton(
+                          backgroundColor: Colors.teal,
+                          child: Text("Redo"),
+                          onPressed: () {}),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          )
+        ],
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }

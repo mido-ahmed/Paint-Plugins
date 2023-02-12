@@ -176,6 +176,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.16"
+  undo:
+    dependency: "direct dev"
+    description:
+      name: undo
+      sha256: "103f7c15002d2cc551ed290a71a8ebd49d44db3252d46cdcb77dea2f5acb5d5c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   vector_math:
     dependency: transitive
     description:
