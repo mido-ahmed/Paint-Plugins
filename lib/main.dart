@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
             _strokes.clear();
           });
         },
-        child: Icon(Icons.undo),
+        child: Icon(Icons.clear),
         backgroundColor: Colors.teal,
       ),
       appBar: AppBar(
