@@ -84,7 +84,7 @@ class DrawingPainter extends CustomPainter {
     for (final stroke in strokes) {
       final paint = Paint()
         ..strokeWidth = 10
-        ..color = Colors.teal
+        ..color = Colors.black
         ..style = PaintingStyle.stroke;
 
       canvas.drawPath(stroke, paint);
