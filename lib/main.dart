@@ -166,11 +166,6 @@ class _HomePageState extends State<HomePage> {
           ),
           _buildEraserButton(context, isSelected: state is Erasing),
           _buildColorButton(context, color: Colors.black, state: state),
-          _buildColorButton(context, color: Colors.red, state: state),
-          _buildColorButton(context, color: Colors.green, state: state),
-          _buildColorButton(context, color: Colors.blue, state: state),
-          _buildColorButton(context, color: Colors.yellow, state: state),
-          _buildColorButton(context, color: Colors.white, state: state),
         ],
       ),
     );
